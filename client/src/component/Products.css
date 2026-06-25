@@ -1,0 +1,32 @@
+.products {
+  min-height: 100vh;
+  background: #111827;
+  padding: 40px;
+}
+
+.products h1 {
+  color: white;
+  text-align: center;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.product-card {
+  background: #1f2937;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.product-card h3,
+.product-card p {
+  color: white;
+}
+
+.product-card img {
+  width: 100%;
+}
